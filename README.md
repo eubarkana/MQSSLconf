@@ -17,7 +17,6 @@ SSL configuration of IBM MQ
   - [MQ client self signed certificate](#mq-client-self-signed-certificate)
   - [Client side Configurations](#client-side-configurations)
   - [Java MQ client Example](#java-mq-client-example)
-  - [Contributing](CONTRIBUTING.md)
 
 ## Prerequisites
 
