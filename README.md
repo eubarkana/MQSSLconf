@@ -257,6 +257,13 @@ The JVM parameters used for the Java test code are as follows:
 *	`-Dcom.ibm.mq.cfg.useIBMCipherMappings=false`
 Keystore format is changed to be p12 instead kdb created earlier.
 
+### MQ .NET client SSL parameters
+Include the parameters in your .NET client code. Values are just samples and should be changed according to the server configuration:
+
+<img width="1121" alt="image" src="https://github.com/eubarkana/MQSSLconf/assets/52744532/1c2a0395-41c5-4f29-9869-af1bb04b3e19">
+
+Key repository can be the same created for MQ Server where `.kdb` and `.sth` extension files should reside together. Extension `.kdb` should not be written in the parameters of .NET client code. Certificate label is the one set on the MQ server.
+
 ## Java MQ client Example
 
 Below is the MQ client code written with Java. Host is deleted so you can configure your own for testing.
